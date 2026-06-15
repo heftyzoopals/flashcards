@@ -4,6 +4,23 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>SecOT+ Domain Drill — Flashcards &amp; Scenario Quiz</title>
+<meta name="description" content="Free interactive flashcards and scenario quiz covering all six domains of the CompTIA SecOT+ (SOT-001) exam objectives. 125 flashcards, 20 scenario questions. Unofficial study tool by Jimi Clare." />
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="SecOT+ Domain Drill — Free SOT-001 Exam Prep Flashcards & Quiz" />
+<meta property="og:description" content="125 flashcards and a 20-question scenario quiz covering every domain of the CompTIA SecOT+ (SOT-001) exam. Free, interactive, runs entirely in your browser." />
+<meta property="og:image" content="og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="SecOT+ Domain Drill — Free SOT-001 Exam Prep Flashcards & Quiz" />
+<meta name="twitter:description" content="125 flashcards and a 20-question scenario quiz covering every domain of the CompTIA SecOT+ (SOT-001) exam." />
+<meta name="twitter:image" content="og-image.png" />
+
+<link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAC0ElEQVR4nO2Vy2uUVxTAf+feb2bi981EApngAzUgqYP4oI2x0Ep9BlSopRIXgkpdSLvThVVBupNS/we7KC2FCCJYUUFR0CxUVCiVmkaMGHwkCkmmM5N5fXOPi8xG8+XRoovSnO3lnt+99/zOubJg0RLeZ5j3mn0WMAt4J+FNsWYNgCoCItQU1XcHEGFkDAHPEjpqjiBO3PJPEZMCSlX2rNGtK3R+I8MFbjyS83/IUA7P1Bki2BlcKwJgDaNFjne6ozsVh8thYmzdpC2/yrHfTEuS0CFCJaRQxk+Q8KZivA0QqITMS/H1pxqOcfi0ufhA5jbozo90JCcxgyoilEM+SOv65fT08uegzInhJmFMsEgIHU0+QRyt0tMvfYP0vZIfLpmf70iqAQcxSzmkYzHf73eftFIOiVlEZgZQJW55nuVFlliS7v2149t0abMi9bOXqmSL5EqMFgkLjBTJl8gWKVWJRET0gTUUKhw6a54NsbSVE7vd1YPu5A4Xs1RC2tJszmhnRlcuwKuxYj5bMropo21pqi6CIZH/gTXky6QDdrXrl6u0vVXxOXNduk6Zn/a6fV8oBQghD0nwIOCXc3Kgu67ANACB0FFT4pZCGWP4drM7sk0rY6w+aZfP088y5At8uFA/79CLd+X2gKQCbj3iSp/4E6odoel4kRfO1ZtPJG7Jlui+J8c61RqaAy7/Jdce8neBPR+zfZ2e+V1+7JFUgGfx4xEuTdBUCB2NDVz4xp27L5d7ZbTIV2tVAl4MMDBKk0/CA6E5wAY0J0klSQdUatGmRtzAM+RKvMzRtVG7NigKjuww310w+TKNCSohVnj4itPXpHcIK5Nmn6oGTT7ti3VZC1Z4muVmvzweJpmoJxrv5LEyc6br5GiLBKqOYoWaomDAj5Pw3jimCEZw/2IWAQoxS8Kve63g9O1HUKU2g9E66TSd4f5p47//Zc4C/geA19hWMasnvUjrAAAAAElFTkSuQmCC" />
+<link rel="apple-touch-icon" sizes="180x180" href="data:image/png;base64,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" />
+
 <style>
   html, body { margin: 0; padding: 0; background: #1a1d1f; }
 </style>
@@ -1105,6 +1122,94 @@ var SCENARIOS = [{
   options: ["RADIUS", "TACACS+", "Kerberos", "LDAP"],
   correct: 1,
   explanation: "TACACS+ separates AAA into distinct steps and uses TCP, offering more granular control than RADIUS (which combines authentication and authorization and uses UDP)."
+},
+// ---- Firewall analysis scenarios ----
+{
+  domain: "4.0",
+  scenario: "While reviewing an IDMZ firewall ruleset, an analyst finds a rule permitting 'ANY' source, 'ANY' destination, and 'ANY' service between the corporate VLAN and the OT VLAN, placed above more specific rules. What is the most appropriate action?",
+  options: ["Leave it — broad rules near the top improve firewall performance", "Remove or restrict the any-any rule, since it likely overrides the more specific rules below it and violates least-privilege segmentation", "Move the rule to the bottom of the ruleset so it acts as a catch-all", "Duplicate the rule on the OT-side firewall for consistency"],
+  correct: 1,
+  explanation: "Most firewalls process rules top-down on a first-match basis, so a broad any-any rule placed early will shadow more specific rules beneath it and undermines segmentation/least-privilege design."
+}, {
+  domain: "4.0",
+  scenario: "An IDMZ firewall is being configured to allow a corporate historian replica to pull data from the OT historian. Following least-privilege principles, how should the rule be written?",
+  options: ["Allow bidirectional traffic on all ports between the two historians", "Allow only the specific historian replication port/protocol, from the corporate historian to the OT historian replica, in one direction", "Allow ANY traffic sourced from the OT historian to the corporate network", "Disable the firewall between the two zones entirely for this use case"],
+  correct: 1,
+  explanation: "Least privilege means permitting only the specific protocol/port required, scoped to the specific hosts, and in the minimum direction needed — not broad or bidirectional access."
+}, {
+  domain: "4.0",
+  scenario: "A firewall log shows repeated outbound connection attempts from an HMI to multiple external IP addresses on port 443, none of which match known update servers or vendor cloud services. What should this prompt?",
+  options: ["No action — port 443 (HTTPS) is always safe to allow outbound", "Investigate as potential command-and-control (C2) or data exfiltration activity, since an HMI shouldn't normally need broad outbound internet access", "Block port 443 on all OT devices permanently without further investigation", "Assume it's a false positive and disable logging for that HMI"],
+  correct: 1,
+  explanation: "Unexpected outbound connections from an OT device to multiple unfamiliar external hosts — even on a 'normal' port like 443 — is a classic indicator of C2 or exfiltration and warrants investigation, especially since OT devices typically have limited, well-defined communication needs."
+}, {
+  domain: "4.0",
+  scenario: "A firewall rule was recently changed to allow RDP (port 3389) from a specific IT subnet into the OT engineering workstation subnet, justified as 'temporary vendor support.' Three months later, the rule is still active and no vendor activity has occurred. What process failure does this best illustrate?",
+  options: ["Insufficient change management — the temporary rule lacked an expiration/review and was never revisited", "A successful application of least privilege", "Correct use of an IDMZ", "Proper use of a jump box/bastion host"],
+  correct: 0,
+  explanation: "Change management should include review dates or expiration for temporary access; leaving a 'temporary' rule active indefinitely is a governance gap that expands the attack surface unnecessarily."
+}, {
+  domain: "4.0",
+  scenario: "An analyst is reviewing firewall logs and sees that a PLC on the control network is initiating Modbus TCP connections (port 502) to an IP address outside the facility's known asset inventory. The firewall allowed this traffic because of a broad outbound rule. What does this scenario primarily highlight?",
+  options: ["The value of an accurate, maintained asset inventory combined with restrictive egress filtering for OT devices", "That Modbus TCP is inherently a secure protocol and this traffic is safe", "That PLCs should never be allowed to log traffic", "That the firewall should be removed since it didn't stop the traffic"],
+  correct: 0,
+  explanation: "PLCs should rarely if ever need outbound connections to unknown external hosts; this highlights the need for both an accurate asset inventory (to recognize the IP as unfamiliar) and tightly scoped egress rules (default-deny outbound from control-level devices)."
+}, {
+  domain: "4.0",
+  scenario: "A security team wants to verify that a newly deployed firewall ruleset correctly blocks unauthorized traffic between zones before going live in production. What should they do first?",
+  options: ["Deploy directly to production and monitor for issues afterward", "Test the ruleset in a lab or staging environment that mirrors production segmentation, validating both allowed and denied traffic paths", "Skip testing since firewall vendors guarantee correct behavior", "Only test the rules that allow traffic, since deny rules can't be misconfigured"],
+  correct: 1,
+  explanation: "Change management for firewall rules should include testing in a representative environment before production deployment, validating that both permitted and denied traffic behave as intended — deny rules can absolutely be misconfigured (e.g., wrong order, wrong subnet)."
+}, {
+  domain: "4.0",
+  scenario: "An organization's OT firewall is configured with a 'default allow' policy at the perimeter, meaning all traffic is permitted unless explicitly blocked. A security architect recommends changing this. What's the recommended approach and why?",
+  options: ["Switch to 'default deny,' explicitly allowing only known-necessary traffic, since this minimizes the attack surface by design", "Keep 'default allow' since it's easier to manage and OT environments rarely change", "Remove the firewall entirely since either policy provides equal security", "Switch to 'default allow' on the internal side too, for consistency"],
+  correct: 0,
+  explanation: "Default-deny (allow-listing) is the recommended approach for OT perimeters: only explicitly required traffic is permitted, and anything not accounted for is blocked by default, significantly reducing the attack surface compared to default-allow (block-listing)."
+},
+// ---- Incident response scenarios ----
+{
+  domain: "6.0",
+  scenario: "During an active incident, an analyst captures memory and disk images from a compromised engineering workstation before reimaging it. Later, legal counsel asks for documentation showing who handled the evidence and when. What should the team be able to produce?",
+  options: ["A chain of custody record documenting collection, handling, and storage of the evidence", "The original vendor invoice for the workstation", "A copy of the organization's risk register", "The firewall's default configuration file"],
+  correct: 0,
+  explanation: "Chain of custody documentation tracks who collected, accessed, and stored evidence and when, preserving its integrity for legal or regulatory purposes."
+}, {
+  domain: "6.0",
+  scenario: "An incident is identified where an attacker manipulated HMI displays to show normal pressure readings while actual pressure was rising dangerously. Which category of impact does this represent, and what PICERL stage should the team move toward once the manipulation is confirmed?",
+  options: ["Loss of view; Recovery", "Manipulation of view; Containment", "Loss of control; Eradication", "Manipulation of safety; Lessons learned"],
+  correct: 1,
+  explanation: "Showing false 'normal' readings while the real process deviates is manipulation of view (not simply loss of view, since the display is actively falsified). Once confirmed, the team should move to containment to limit further manipulation while preserving safety."
+}, {
+  domain: "6.0",
+  scenario: "Mid-incident, the IR team discovers the compromise may have originated from a third-party vendor's remote access connection. The organization has a pre-arranged contract with an external IR firm for situations like this. What should the team do?",
+  options: ["Ignore the retainer and handle everything internally to avoid cost", "Activate the incident response retainer (IRR) to bring in the external IR firm's specialized support", "Wait until the incident is fully resolved before contacting the retainer firm", "Terminate the vendor's contract immediately without further investigation"],
+  correct: 1,
+  explanation: "An IRR exists precisely for situations requiring specialized external support — activating it promptly, especially for complex third-party-related incidents, ensures access to additional expertise and resources during the response."
+}, {
+  domain: "6.0",
+  scenario: "After eradicating malware from a compromised PLC and restoring it from a known-good backup, the team wants to bring the PLC back into production. What should happen before reconnecting it to the live process?",
+  options: ["Immediately reconnect it to maximize uptime", "Validate the restored configuration and logic against the known-good baseline, and confirm no indicators of compromise remain, before reconnecting to the live process", "Skip validation since the backup is assumed to be clean", "Reconnect it only to the corporate network first, then the OT network later"],
+  correct: 1,
+  explanation: "Recovery should include validation that the restored system matches the known-good baseline and is free of IOCs before being reintroduced to production — reconnecting without validation risks reintroducing the compromise."
+}, {
+  domain: "6.0",
+  scenario: "A regional utility experiences an OT cybersecurity incident that causes a brief loss of monitoring capability for part of the grid, though no outage occurs. Which factor should the IR team evaluate first when determining whether mandatory reporting obligations apply?",
+  options: ["Whether the incident affects a system or sector subject to regulatory reporting requirements (e.g., NERC for the electric sector), regardless of whether an outage occurred", "Whether the IT helpdesk received any complaints", "Whether the incident happened during business hours", "Whether the affected equipment was under warranty"],
+  correct: 0,
+  explanation: "Mandatory reporting obligations (e.g., NERC CIP reporting for the electric sector) can apply based on the nature and scope of the incident and the regulated sector involved, not solely on whether a visible outage occurred."
+}, {
+  domain: "6.0",
+  scenario: "During the 'preparation' phase of PICERL, a team conducts a tabletop exercise simulating a ransomware attack on the OT network. A participant suggests skipping the exercise because 'we already have an incident response plan written.' What's the best response to this suggestion?",
+  options: ["Agree — a written plan alone is sufficient preparation", "Proceed with the tabletop exercise anyway, since exercises validate whether the plan actually works in practice and reveal gaps a written document alone won't surface", "Cancel all future exercises since the plan exists", "Replace the tabletop exercise with a memory/disk forensics drill instead, as a substitute"],
+  correct: 1,
+  explanation: "A written IR plan is necessary but not sufficient — tabletop exercises test whether the plan works in practice, surface gaps in roles/communication/decision-making, and build team familiarity before a real incident occurs."
+}, {
+  domain: "6.0",
+  scenario: "An incident responder is collecting evidence from a compromised jump box used for vendor remote access. In addition to memory and disk images, what additional log source would be especially valuable given the jump box's role?",
+  options: ["The organization's risk register", "Session logs showing who connected through the jump box, when, and to which downstream systems", "The vendor's marketing materials", "HVAC system logs"],
+  correct: 1,
+  explanation: "Since a jump box's purpose is to mediate and log access to downstream systems, its session logs are critical for understanding what an attacker accessed after compromising it."
 }];
 var DOMAIN_LABELS = {
   "1.0": "Systems & Safety",
@@ -1649,7 +1754,15 @@ function App() {
       color: "#ff9f1c",
       textDecoration: "none"
     }
-  }, "JIMI CLARE"), " ", "\xB7 UNOFFICIAL \u2014 NOT AFFILIATED WITH COMPTIA"));
+  }, "JIMI CLARE"), " ", "\xB7 UNOFFICIAL \u2014 NOT AFFILIATED WITH COMPTIA"), /*#__PURE__*/React.createElement("div", {
+    className: "mono",
+    style: {
+      marginTop: 8,
+      fontSize: 10,
+      color: "#4a4e50",
+      letterSpacing: "0.05em"
+    }
+  }, "made with Claude"));
 }
 ReactDOM.createRoot(document.getElementById("root")).render(React.createElement(App));
 </script>
